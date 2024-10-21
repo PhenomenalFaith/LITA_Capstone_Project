@@ -20,9 +20,7 @@ The primary data used here is an open source data sub file downloaded from the L
  2. Cleaning the Dataset.
 
 - PowerBI [Download here](https://www.microsoft.com)
- 1. For checking the authenticity of the dataset.
- 2. For checking relationships within the dataset.
- 3. For visualization 
+ 1. For portfolio building.
 
 
 
