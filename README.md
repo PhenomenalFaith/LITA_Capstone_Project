@@ -52,7 +52,18 @@ The pivot table was used to summarize the sales data to discover some trends. An
 ![image](https://github.com/user-attachments/assets/b43abc2b-8dbe-471c-b666-93113f614074)
 
 
-The Structured query language used to 
+The Structured query language used to answer the following questions for more insights on the Sales data include the following:
+
+- The total sales for each product category.
+  ```sql
+  SELECT * Product, SUM(Quantity * UnitPrice) AS TotalSales
+   FROM SalesData
+   GROUP BY Product
+   ORDER BY TotalSales DESC
+  
+```
+
+
   
 
   
