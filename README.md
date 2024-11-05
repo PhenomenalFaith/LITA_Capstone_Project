@@ -36,5 +36,13 @@ This data is analysed to answer the following Sales trend and revenue generating
 
   ### Sales Data Analysis
 
+  The data set was cleaned using Microsoft Excel and the following functions were used to calculate Total Revenue, Average Revenue of the products,
+
+   Total Revenue : =(Unit Price * Quantity) [Enter]
+  
+  Average Revenue: =AVERAGEIF( Range , criteria,[average range]) [Enter]
+
+  The pivot table was used to summarize the sales data to discover some trends.
+
   
 
