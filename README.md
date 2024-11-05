@@ -54,15 +54,37 @@ The pivot table was used to summarize the sales data to discover some trends. An
 
 The Structured query language used to answer the following questions for more insights on the Sales data include the following:
 
-- The total sales for each product category.
+1.  The total sales for each product category.
   ```sql
   SELECT * Product, SUM(Quantity * UnitPrice) AS TotalSales
    FROM SalesData
    GROUP BY Product
-   ORDER BY TotalSales DESC
-  
+   ORDER BY TotalSales DESC  
 ```
 
+2.  The number of sales transactions in each region.
+```sql
+  SELECT Region, COUNT(OrderID) AS TransactionCount
+  FROM SalesData
+  GROUP BY Region;
+```
+
+3. The highest-selling product by total sales value.
+  ```sql
+  SELECT TOP 1 Product, SUM(Quantity * UnitPrice) AS TotalSales
+  FROM SalesData
+  GROUP BY Product
+  ORDER BY TotalSales DESC;
+  ```
+
+ 4. The total revenue per product.
+  ```sql
+  SELECT Product, SUM(Quantity * UnitPrice) AS TotalRevenue
+  FROM SalesData
+  GROUP BY Product
+  ORDER BY TotalRevenue DESC;
+  ```
+  5. The monthly sales totals for the current year.
 
   
 
