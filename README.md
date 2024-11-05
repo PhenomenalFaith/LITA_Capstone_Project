@@ -85,7 +85,24 @@ The Structured query language used to answer the following questions for more in
   ORDER BY TotalRevenue DESC;
   ```
   5. The monthly sales totals for the current year.
+```sql
 
+ SELECT MONTH(OrderDate) AS SaleMonth, SUM(Quantity * UnitPrice) AS MonthlySales
+ FROM SalesData
+ WHERE YEAR(OrderDate) = YEAR(GETDATE()) 
+ GROUP BY MONTH(OrderDate)
+ ORDER BY SaleMonth;
+```
+
+6. The top 5 customers by total purchase amount.
+   ```sql
+   SELECT CustomerId, SUM(Quantity * UnitPrice) AS TotalPurchase
+   FROM SalesData
+   GROUP BY CustomerId
+   ORDER BY TotalPurchase DESC
+   OFFSET 0 ROWS FETCH NEXT 5 ROWS ONLY;
+   ```
+and so on.
   
 
   
