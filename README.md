@@ -1,11 +1,21 @@
 # LITA_Capstone_Project
 This is where I will be documenting the progress of my final project analysis throughout the Incubator Hub Data Analysis training program.
 
-### Project Outline.
-- [Project Title](#project-title)
-
-
 ### Project Title: Sales Data and Customer Data Analysis.
+
+### Project Outline.
+
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools Used](#tools-used)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Sales Data Analysis](#sales-data-analysis)
+- [Key Insights Gotten from the Sales Data](#key-insights-gotten-from-the-sales-data)
+- [Recommendation](#recommendation)
+- [Data Visualization](#data-visualization)
+
+
+
 
 ### Project Overview:
 
@@ -120,6 +130,6 @@ and so on.
 - Critical investigation is to be carried out on the eastern region to understand the reason behind the crash in sales between 2023 and 2024 from 1,987,500 to 462,500.
 - Across every region, investigations have to be conducted to ascertain why sales was not possible in the fourth quarter of 2024 for all products.
 
-
+### Data Visualization.
   
 
