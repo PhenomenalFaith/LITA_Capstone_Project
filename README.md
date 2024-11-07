@@ -131,5 +131,6 @@ and so on.
 - Across every region, investigations have to be conducted to ascertain why sales was not possible in the fourth quarter of 2024 for all products.
 
 ### Data Visualization.
-  
+  ![image](https://github.com/user-attachments/assets/a5a3c1b6-3876-42bb-a6a4-227d9f46d8a1)
+
 
