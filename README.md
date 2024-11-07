@@ -1,6 +1,9 @@
 # LITA_Capstone_Project
 This is where I will be documenting the progress of my final project analysis throughout the Incubator Hub Data Analysis training program.
 
+### Project Outline.
+- [Project Title](#project-title)
+
 
 ### Project Title: Sales Data and Customer Data Analysis.
 
